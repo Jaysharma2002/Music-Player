@@ -1,0 +1,25 @@
+body,html{
+    background-image: url("C:\React\spotify_clone\frontend\public\background.jpg");
+    background-size: cover;
+    background-repeat: none;
+}
+.Content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginbtn{
+    border:2px soild green;
+    background-color: rgb(37, 184, 37);
+    padding:10px 20px;
+    text-decoration: none;
+    color:white;
+    transition: 0.3s ease-in-out;
+    border-radius: 8px;
+    margin-top: 15%;
+    font-size: 25px;
+    font-family:sans-serif;
+}
+.loginbtn:hover{
+    transform: scale(1.05);
+}

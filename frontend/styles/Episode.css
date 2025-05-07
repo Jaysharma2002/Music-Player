@@ -1,0 +1,39 @@
+.Episode-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width:100%;
+    flex-wrap: wrap;
+    gap:20px;
+    padding:10px;
+}
+.episode_des,.episode_releasedate{
+    color: rgba(248, 251, 254, 0.655);
+    font-size: large;
+}
+.allepisodecontainer img{
+    height:150px;
+    width:150px;
+    border-radius:10%
+}
+.episodemetadata{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+}
+.episode_name{
+    color:white;
+    font-size: large;
+    font-weight: bold;
+}
+.allepisodecontainer{
+    padding:10px;
+    display: flex;
+    gap:10px;
+    background-color: #121212;
+    border-radius: 10px;
+}
+.allepisodecontainer:hover{
+    cursor: pointer;
+    background-color: #1f1f1f;
+}

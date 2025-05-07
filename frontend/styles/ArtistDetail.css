@@ -1,0 +1,26 @@
+.artistdetailheader{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:20px;
+    background:linear-gradient(to right,rgba(255, 255, 255, 0.564),rgb(35, 35, 35));
+    padding:20px 10px;
+    border-radius: 10px;
+}
+.artistdetailheader img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+.artistdetailheader span{
+    font-size: 70px;
+    font-family: 'Times New Roman';
+}
+.artistdetail{
+    padding-top: 10px;
+} 
+.trackhome3{
+    display:flex;
+    gap:10px;
+    padding:5px;
+}

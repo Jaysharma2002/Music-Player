@@ -1,0 +1,35 @@
+.visible{
+    display: block;
+}
+.hide{
+    display: none;
+}
+.selectedsongname{
+    color: white;
+    font-size: 18px; 
+    font-weight: bold;
+    text-align: center;
+}
+.selectedsongartist,.selectedsongalbumname{
+    color:white;
+    text-align: center;
+}
+.containervideo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.close{
+    background-color: #121212;
+    border:none;
+    color:white;
+    border-radius: 50%;
+    padding:8px 11px;
+    margin-left:80%;
+    margin-top:5%;
+}
+.close:hover{
+    background-color: #1f1f1f;
+    cursor: pointer;
+}

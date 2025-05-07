@@ -1,0 +1,29 @@
+.albumdetailheader{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:20px;
+    background-color: #a70f0ad8;
+    padding:20px 10px;
+    border-radius: 10px;
+}
+.albumdetailheader img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+.albumdetailheader span{
+    font-size: 70px;
+    font-family: 'Times New Roman';
+}
+.AlbumDetail{
+    padding-top: 10px;
+}
+.trackshover3{
+    background-color: #121212;
+    border-radius: 10px;
+}
+.trackshover3:hover{
+    background-color: #1f1f1f;
+    border-radius: 10px;
+}  

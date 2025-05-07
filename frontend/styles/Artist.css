@@ -1,0 +1,29 @@
+.artist-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width:100%;
+    flex-wrap: wrap;
+    gap:20px;
+    padding:10px;
+}
+.artist-type{
+    color: rgba(248, 251, 254, 0.655);
+}
+.artistcontainer img{
+    height:150px;
+    width:150px;
+    border-radius:50%
+}
+.artist-name{
+    color:white
+}
+.artistcontainer{
+    background-color: #121212;
+    padding:10px 15px;
+    border-radius: 10px;
+}
+.artistcontainer:hover{
+    cursor: pointer;
+    background-color: #1f1f1f;
+}

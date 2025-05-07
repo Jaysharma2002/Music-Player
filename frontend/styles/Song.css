@@ -1,0 +1,27 @@
+.trackdes{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.trackshoverheading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.trackhome1{
+    display: flex;
+    width:250px;
+}
+.trackshover1 {
+    background-color: #121212;
+    border-radius: 10px; 
+}
+.trackshover1:hover{
+    cursor:pointer;
+    background-color: #1f1f1f;
+}
+.table1 {
+    border-spacing: 0 10px;
+    border-collapse: separate;
+}
+

@@ -1,6 +1,5 @@
 import React,{useEffect} from "react";
 import '../styles/VideoContainer.css'
-import ArtistDetail from "./ArtistDetail";
 function VideoContainer({ selectedSong,onShow,setOnShow,albumdetailimage,setAlbumDetailImage}) {
     console.log(selectedSong);
     if (!selectedSong) {

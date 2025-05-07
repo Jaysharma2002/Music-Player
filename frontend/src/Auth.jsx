@@ -7,7 +7,7 @@ function Auth({ code, setCurrAccessToken }) {
     const [expiresIn, setExpiresIn] = useState();
 
     useEffect(() => {
-        axios.post('http://localhost:5000/login', { code })
+        axios.post('https://music-player-vzrq.onrender.com/login', { code })
             .then(res => {
                 setAccessToken(res.data.accessToken);
                 setRefreshToken(res.data.refreshToken);
@@ -28,7 +28,7 @@ function Auth({ code, setCurrAccessToken }) {
     useEffect(() => {
         const interval = setInterval(() => {
             if (!refreshToken || !expiresIn) return;
-            axios.post('http://localhost:5000/refresh', { refreshToken })
+            axios.post('https://music-player-vzrq.onrender.com/refresh', { refreshToken })
                 .then(res => {
                     setAccessToken(res.data.accessToken);
                     setExpiresIn(res.data.expiresIn);

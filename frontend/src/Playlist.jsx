@@ -26,7 +26,7 @@ function Playlist({ userPlaylist,setSelectedPlaylist}) {
             </div>
             <div className="playlistiteminfo">
             <span
-              className="homeitemname"
+              className="artistname"
               style={{
                 color: "white",
                 overflow: "hidden",

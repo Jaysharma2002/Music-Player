@@ -25,7 +25,7 @@ function Playlist({ userPlaylist,setSelectedPlaylist}) {
               />
             </div>
             <div className="playlistiteminfo">
-              <span className="homeitemname" style={{ color: "white",overflow: "hidden", textOverflow:"ellipsis",whiteSpace:"nowrap" }}>{playlist.name}</span>
+              <span className="homeitemname" style={{ color: "white",overflow: "hidden", textOverflow:"ellipsis",whiteSpace:"nowrap"}}>{playlist.name}</span>
               <span className="fadeitemname">
                 {playlist.type}. {playlist.owner?.display_name || "Unknown"}
               </span>

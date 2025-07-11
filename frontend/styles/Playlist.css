@@ -44,8 +44,7 @@
     background-color: #1f1f1f;
 }
 .playlistiteminfo{
-    display: flex;
-    flex-direction: column;
+    
 }
 .fadeitemname{
     color: rgba(255, 255, 255, 0.655);

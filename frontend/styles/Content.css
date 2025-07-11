@@ -1,0 +1,101 @@
+.trackhome{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.trackshover:hover{
+    background-color: #1f1f1f;
+    cursor: pointer;
+}
+table th{
+    text-align: start;
+    color:rgba(240, 255, 255, 0.656);
+    font-size: large;
+}
+.content-container{
+    padding:20px;
+}
+.tbody{
+    padding:20px;
+}
+.index{
+    padding-left: 10px;
+}
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+.trackname{
+    font-size: 16px;
+    font-family:sans-serif;
+    font-weight: bold;
+}
+.trackartist{
+    font-size: 14px;
+    font-family:sans-serif;
+    font-weight: lighter;
+    color:rgba(240, 255, 255, 0.819)
+}
+
+.no-preview{
+    font-size: 12px;
+    font-family:sans-serif;
+    font-weight: lighter;
+    padding:5px;
+}
+.divscrollable{
+    display: flex;
+    align-items: center;
+}
+.divscrollable button{
+    height: 30px;
+    width:50px;
+    background-color: #1f1f1f;
+    color:white;
+    border-radius:50% ;
+}
+
+.PopularAlbums,.popularSingles{
+    display: flex;
+    gap:10px;
+    overflow-x: scroll;
+    background-color: #121212;
+}
+.PopularAlbumsItems,.popularSinglesItems{
+    width: 170px;
+    padding:15px 10px 5px 10px;
+    text-align: center;
+}
+.PopularAlbumsItems:hover,.popularSinglesItems:hover{
+    background-color: #1f1f1f;
+}
+.PopularAlbumsItems img,.popularSinglesItems img{
+    height:150px;
+    width:150px;
+}
+.PopularAlbums::-webkit-scrollbar,.popularSingles::-webkit-scrollbar{
+    display: none;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    background-color: #121212;
+}
+.category button{
+    padding:10px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family:sans-serif;
+}
+
+.category{
+    display: flex;
+    gap:10px;
+}
+.itemname{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}

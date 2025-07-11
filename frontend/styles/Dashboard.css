@@ -1,0 +1,107 @@
+body,html{
+    background-image: none;
+    background-color: black;
+}
+html::-webkit-scrollbar{
+    display: none;
+}
+.dashboard img{
+    height: 55px;
+    width:170px;
+    background-color: black;
+    margin-left:10px;
+}
+.dashboard{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.dashboard input{
+    padding: 15px 150px;
+    border-radius: 20px;
+    border-color:black;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: start;
+    background-color:#1e1e1efd;
+    color:white;
+}
+.content{
+    display: flex;
+}
+.startplaylist{
+    width:30%;
+    height: 77vh;
+    overflow-y: auto;
+    background: linear-gradient(to bottom, rgb(150, 26, 26), rgba(255, 255, 255, 0.577));
+    border-radius: 10px;
+}
+.startplaylist p{
+    padding:0;
+    
+}
+.middlecontent{
+    width:100%;
+    height: 77vh;
+    overflow-y: auto;
+    background:linear-gradient(to bottom,rgb(150, 35, 150),rgba(255, 255, 255, 0.577));
+    color:white;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.middlecontent::-webkit-scrollbar,.startplaylist::-webkit-scrollbar{
+    background-color: #1e1e1efd;
+    border-radius: 10px;
+}
+.middlecontent::-webkit-scrollbar-thumb:hover,.startplaylist::-webkit-scrollbar-thumb:hover{
+    background-color: #3a3a3a;
+    border-radius: 10px;
+}
+.logout{
+    background-color: #1e1e1efd;
+    color:white;
+    padding:5px;
+    border-radius: 10px;
+    margin-right:20px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family:sans-serif;
+    background: linear-gradient(to right,#eb4264,#b045be,#4b99d1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.logout:hover{
+    cursor: pointer;
+    background: linear-gradient(to right,#ff0035,#e100fe,#0496ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.lastcontent{
+    width:30%;
+    height: 76vh;
+    background:linear-gradient(to bottom,#57b0ce,rgba(255, 255, 255, 0.577));
+    margin-left: 15px;
+    border-radius: 10px;
+    padding:10px 10px 0px;
+}
+.player{
+    width: 100;
+    background-color: black;
+    height: 10vh;
+    z-index: 1;
+    position:relative;
+}
+.logohide{
+    position: absolute;
+    z-index: 100;
+    margin-top:3%;
+    margin-left: 5%;
+    background-color: black;
+    height: 30px;
+    width:90px;
+}

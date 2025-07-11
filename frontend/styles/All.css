@@ -1,0 +1,166 @@
+.main-container{
+    padding-top: 20px;
+}
+.upper-container{
+    display: flex;
+    gap:10px;
+    width:100%
+}
+.nopaddingtext{
+    padding:0;
+    margin:0;
+}
+.container-top-result{
+    width: 40%;
+}
+.result-container{
+    padding:20px 10px;
+    background-color: #121212;
+    border-radius: 10px;
+    height: 68%;
+}
+.result-container:hover{
+    cursor: pointer;
+    background-color: #1f1f1f;
+}
+.result-container img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+.result-container h1{
+    color:white;
+}
+.result-container p{
+    color:rgba(240, 248, 255, 0.603);
+}
+.container-song{
+    width:60%;
+}
+.trackhome{
+    padding:7px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    width:250px;
+}
+.trackshover{
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.trackshover:hover{
+    background-color: #1f1f1f;
+    cursor: pointer;
+}
+.content-container{
+    padding:20px;
+}
+
+.index{
+    padding-left: 10px;
+}
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+.tbody2{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.trackname{
+    font-size: 16px;
+    font-family:sans-serif;
+    font-weight: bold;
+}
+.trackartist{
+    font-size: 14px;
+    font-family:sans-serif;
+    font-weight: lighter;
+    color:rgba(240, 255, 255, 0.819)
+}
+
+.no-preview{
+    font-size: 12px;
+    font-family:sans-serif;
+    font-weight: lighter;
+    padding:5px;
+}
+.container-artist,.container-album,.container-episode{
+    display: flex;
+    gap:10px;
+    overflow-x: scroll;
+    background-color:transparent;
+    border-radius: 10px;
+}
+.artist-type{
+    color: rgba(248, 251, 254, 0.655);
+}
+.artistcontainer img{
+    height:150px;
+    width:150px;
+    border-radius:50%
+}
+.artist-name{
+    color:white
+}
+.divscrollablealbum{
+    display: flex;
+    align-items: center;
+}
+.divscrollablealbum button{
+    height: 30px;
+    width:50px;
+    background-color: #1f1f1f;
+    color:white;
+    border-radius:50% ;
+}
+.divscrollablealbum button:hover{
+    cursor: pointer;
+}
+.artistcontainer,.albumcontainer,.episodecontainer{
+    padding:10px 15px;
+    width:150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.artistcontainer:hover{
+    cursor: pointer;
+    background-color: #1f1f1f;
+}
+
+.container-album{
+    display: flex;
+    gap:10px;
+    overflow-x: scroll;
+    background-color: #121212;
+}
+.container-episode::-webkit-scrollbar,.container-album::-webkit-scrollbar,.container-artist::-webkit-scrollbar{
+    display: none;
+}
+.container-title:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.artistname,.albumname,.episodename{
+    font-size: 18px;
+    font-weight: bold;
+    font-family:sans-serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color:white;
+    padding:5px;
+}
+.topresulttitle{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.albummetadata{
+    text-align: center;
+}

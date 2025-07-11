@@ -1,0 +1,18 @@
+.hometitle{
+    font-size: 20px;
+    font-family:sans-serif;
+    font-weight: bold;
+}
+.homeitemname{
+    color:white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 16px;
+    font-family:sans-serif;
+    font-weight: bold;
+    padding: 2px;
+}
+.PopularAlbums,.popularSingles{
+    border-radius: 10px;
+}

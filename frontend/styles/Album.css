@@ -1,0 +1,33 @@
+.Album-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:20px;
+    padding:10px;
+}
+.albumreleasedate,.artistname{
+    color: rgba(248, 251, 254, 0.655);
+}
+.albumcontainer img{
+    height:150px;
+    width:150px;
+    border-radius:50%
+}
+.album-name{
+    color:white
+}
+.albumcontainer{
+    padding:10px 15px;
+    max-width:150px;
+    background-color: #121212;
+    border-radius: 10px;
+}
+.albumcontainer:hover{
+    cursor: pointer;
+    background-color: #1f1f1f;
+}
+.albummetadata{
+    display: flex;
+    justify-content: flex-start;
+}
